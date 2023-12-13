@@ -100,3 +100,8 @@ function processData(response){
         }, 2000);
     });
 }
+
+readFile()
+    .then(callAPI)
+    .then(processData)
+    .then(data => console.log('Final processed data:', data))
