@@ -30,3 +30,8 @@ console.log('u3: ', u3);
 
 let u4 = Object.assign({}, user)
 console.log('u4: ', u4);
+
+console.log('-----------');
+
+let n = 1.234;
+console.log( n.toFixed(0) );
